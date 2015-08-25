@@ -1,0 +1,413 @@
+ranks:
+ Unactive:
+  AvatarExts:
+   - gif
+   - png
+   - jpg
+  Award: 6
+  DirSize: 0b
+  FileSize: 0b
+  FileWait: 4
+  DlSpeed: 0
+  AllowExt:
+   - 0
+  Permissions:
+   - eif.log.out
+   - eif.gadugadu.activation.send
+   - eif.mail.activation.send
+   - eif.dzial.show
+   - eif.topic.show.bypost
+   - eif.file.get
+   - eif.warnlist.show
+   
+   - eif.user.activate
+   - eif.user.show
+ Banned:
+  Award: 3
+  DirSize: 0b
+  FileSize: 0b
+  FileWait: 100
+  AllowExt:
+   - 0
+  Permissions:
+   - eif.log.out
+   - eif.dzial.show
+   - eif.topic.show.bypost
+   
+   - eif.warnlist.show
+   
+   - eif.user.show
+   
+   - eif.user.cp.password.change
+ Premium:
+  AvatarExts:
+   - gif
+   - png
+   - jpg
+  Award: 4
+  DirSize: 150MB
+  FileSize: 80MB
+  FileWait: 2
+  AllowExt:
+   - gif
+   - jpeg
+   - jpg
+   - rar
+   - zip
+   - bmp
+   - png
+   - txt
+   - pdf
+   - tar
+   - cab
+   - mp3
+   - wav
+   - mp4
+   - mp5
+   - audio
+   - video
+   - schematic
+   - doc
+  Permissions:
+   - eif.log.out
+   
+   - eif.shoutbox.write
+   - eif.shoutbox.show
+   
+   - eif.message.add
+   - eif.message.show.mine
+   
+   - eif.file.download.fast
+   - eif.file.getlist.mine
+   - eif.file.getlist.other
+   - eif.file.add
+   - eif.file.get
+   
+   - eif.dzial.show
+   
+   - eif.topic.show.bypost
+   - eif.topic.add
+   
+   - eif.post.add
+   - eif.post.add.closed
+   - eif.post.add.opened
+   - eif.post.edit.mine
+   
+   - eif.avatar.change.mine
+   - eif.user.cp.password.change
+   - eif.user.show
+   
+   - eif.warnlist.show
+   - eif.te-es.show
+   - eif.gadu.send
+ Moderator:
+  AvatarExts:
+   - gif
+   - png
+   - jpg
+  Award: 2
+  DirSize: 100MB
+  FileSize: 40MB
+  FileWait: 5
+  AllowExt:
+   - gif
+   - jpeg
+   - jpg
+   - rar
+   - zip
+   - bmp
+   - png
+   - txt
+   - pdf
+   - tar
+   - cab
+   - mp3
+   - wav
+   - mp4
+   - mp5
+   - audio
+   - video
+  Permissions:
+   - eif.log.out
+   
+   - eif.shoutbox.write
+   - eif.shoutbox.show
+   
+   - eif.file.getlist.mine
+   - eif.file.getlist.other
+   - eif.file.add
+   - eif.file.delete.mine
+   - eif.file.delete.other
+   - eif.file.download
+   - eif.file.rate
+   - eif.file.get
+   
+   - eif.user.show
+   - eif.user.warn
+   
+   - eif.dzial.show
+   
+   - eif.topic.show.bypost
+   - eif.topic.add
+   
+   - eif.post.add
+   - eif.post.add.closed
+   - eif.post.add.opened
+   - eif.post.edit.mine
+   
+   - eif.avatar.change.mine
+   
+   - eif.warnlist.show
+   
+   - eif.message.add
+   - eif.message.show.mine
+   
+   - eif.te-es.show
+   - eif.gadu.send
+ Unlogged:
+  Award: 0
+  DirSize: 0b
+  FileSize: 0b
+  FileWait: 10
+  AllowExt:
+   - 0
+  Permissions:
+   - eif.log.in
+   - eif.shoutbox.show
+   - eif.file.getlist.other
+   - eif.file.get
+   - eif.dzial.show
+   - eif.topic.show.bypost
+   - eif.user.show
+   - eif.user.password.recovery
+   - eif.warn.list.show
+ User:
+  AvatarExts:
+   - gif
+   - png
+   - jpg
+  Award: 2
+  DirSize: 100MB
+  FileSize: 40MB
+  FileWait: 5
+  AllowExt:
+   - gif
+   - jpeg
+   - jpg
+   - rar
+   - zip
+   - bmp
+   - png
+   - txt
+   - pdf
+   - tar
+   - cab
+   - mp3
+   - wav
+   - mp4
+   - mp5
+   - audio
+   - video
+  Permissions:
+   - eif.log.out
+   
+   - eif.shoutbox.write
+   - eif.shoutbox.show
+   
+   - eif.file.getlist.mine
+   - eif.file.getlist.other
+   - eif.file.add
+   - eif.file.get
+   - eif.file.delete.mine
+   - eif.file.rate
+   
+   - eif.dzial.show
+   
+   - eif.topic.show.bypost
+   - eif.topic.add
+   
+   - eif.post.add
+   - eif.post.add.closed
+   - eif.post.add.opened
+   - eif.post.edit.mine
+   
+   - eif.avatar.change.mine
+   - eif.user.cp.password.change
+   - eif.user.show
+   
+   - eif.message.add
+   - eif.message.show.mine
+   
+   - eif.warn.list.show
+   - eif.te-es.show
+   - eif.gadu.send
+ Admin:
+  AvatarExts:
+   - gif
+   - png
+   - jpg
+  Award: 1
+  DirSize: 500MB
+  FileSize: 200MB
+  FileWait: 0
+  AllowExt:
+   - gif
+   - jpeg
+   - jpg
+   - rar
+   - zip
+   - bmp
+   - png
+   - txt
+   - pdf
+   - tar
+   - cab
+   - mp3
+   - wav
+   - mp4
+   - mp5
+   - audio
+   - video
+   - jad
+   - jar
+   - swf
+   - exe
+   - html
+   - js
+   - sql
+   - apk
+   - ttf
+   - doc
+   - schematic
+  Permissions:
+   - eif.post.add
+   - eif.post.add.closed
+   - eif.post.add.opened
+   - eif.post.edit.mine
+   - eif.post.edit.other
+   - eif.post.edit.locked
+   - eif.post.delete.mine
+   - eif.post.delete.other
+   
+   - eif.shoutbox.write
+   - eif.shoutbox.show
+   - eif.shoutbox.delete.mine
+   - eif.shoutbox.delete.other
+   - eif.shoutbox.edit.mine
+   - eif.shoutbox.edit.other
+   
+   - eif.avatar.change.mine
+   - eif.avatar.change.other
+   - eif.avatar.delete.mine
+   - eif.avatar.delete.other
+   
+   - eif.file.getlist.mine
+   - eif.file.getlist.other
+   - eif.file.add
+   - eif.file.delete.mine
+   - eif.file.delete.other
+   - eif.file.download
+   - eif.file.get
+   - eif.file.rate
+   - eif.file.edit.mine
+   - eif.file.edit.other
+   - eif.file.edit.name
+   - eif.file.edit.opis
+   - eif.file.edit.visible
+   - eif.file.edit.lock
+   - eif.file.download.fast
+   
+   - eif.admincp.enter
+   - eif.admincp.button
+   - eif.admincp.user.ban
+   - eif.admincp.user.pardon
+   - eif.admincp.user.remove
+   - eif.admincp.user.setrank
+   - eif.admincp.user.list.show
+   
+   - eif.rank.list
+   
+   - eif.user.cp
+   - eif.user.cp.avatar.change
+   - eif.user.cp.password.change
+   - eif.user.edit
+   - eif.user.warn
+   - eif.user.show
+   
+   - eif.message.add
+   - eif.message.remove.mine
+   - eif.message.remove.other
+   - eif.message.show.mine
+   - eif.message.show.other
+   - eif.message.sent
+   - eif.message.cp
+   
+   - eif.topic.add.locked
+   - eif.topic.add
+   - eif.topic.move
+   - eif.topic.delete.mine
+   - eif.topic.delete.other
+   - eif.topic.lock.mine
+   - eif.topic.lock.other
+   - eif.topic.open.mine
+   - eif.topic.open.other
+   - eif.topic.show
+   - eif.topic.show.bypost
+   - eif.topic.setpin
+   - eif.topic.setpin.true
+   - eif.topic.setpin.false
+   - eif.topic.edit.title
+   
+   - eif.category.add
+   - eif.category.remove
+   - eif.category.edit
+   
+   - eif.dzial.add
+   - eif.dzial.remove
+   - eif.dzial.move
+   - eif.dzial.show
+   - eif.dzial.clean
+   - eif.dzial.edit
+   
+   - eif.newsletter.send
+   
+   - eif.modforum
+   - eif.modforum.add
+   - eif.modforum.remove
+   - eif.modforum.show
+   
+   - eif.rank.add
+   - eif.rank.remove
+   - eif.rank.edit
+   
+   - eif.warn.bar.show
+   - eif.warn.list.show
+   - eif.warn.plus
+   - eif.warn.minus
+   - eif.warn
+   
+   - eif.przeczytane.cp
+   - eif.przeczytane.add
+   
+   - eif.respect.give
+   - eif.respect.bosstools
+   
+   - eif.sourcebin.cp
+   - eif.sourcebin.add
+   - eif.sourcebin.remove.mine
+   - eif.sourcebin.remove.other
+   - eif.sourcebin.show.item
+   - eif.sourcebin.show.list
+   
+   - eif.gadugadu.message.send
+   - eif.gadugadu.activation.send
+   
+   - eif.mail.write
+   - eif.log.out
+   - eif.log.in
+   - eif.logging.nosave
+   - przeczytane.*
+   - eif.gadu.send
+   - eif.te-es.show
+   - eif.log.clear.filter
+   - eif.log.show

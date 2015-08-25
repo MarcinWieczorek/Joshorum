@@ -1,0 +1,130 @@
+html * {
+	background: transparent 0 0 no-repeat;
+	border: transparent solid 0;
+}
+
+body {
+	background-color: #eee;
+}
+
+.warn_pasek {
+	background: url(images/warn_pasek.png) repeat-x;
+}
+
+.redborder {
+	border-color: red !important;
+}
+
+/*
+.quote_wrapper {
+	border: 1px dashed #000;
+	display: block;
+	width: 50%;
+}
+*/
+
+.minus {
+	background: url(../../icon/collapse_minus.png);
+}
+
+.plus {
+	background: url(../../icon/collapse_plus.png);
+}
+
+.scroll {
+	background-image: url(../../icon/scroll.png);
+	background-size: 100%;
+}
+
+.itemhead {
+	background: url(images/stone.png) !important;
+}
+
+input { background-color: #fff; border: 1px solid #bbb; border-radius: 5px; }
+input[type="button"], input[type="submit"], input[type="reset"] { background-color: #eee; border: 1px solid #aaa; }
+.select { border: 1px solid #bbb; border-radius: 5px; }
+.select select { background: transparent; }
+
+/* sila has³a */
+div#passtr {
+	width: 40px;
+	height: 32px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	z-index: -1;
+	margin-left: -20px;
+}
+
+div#passtr.str0 { background: #33FF33; }
+div#passtr.str1 { background: #336600; }
+div#passtr.str2 { background: #FFFF33; }
+div#passtr.str3 { background: #FF9933; }
+div#passtr.str4 { background: #FF6600; }
+div#passtr.str5 { background: #FF0000; }
+
+td.ratestars div {
+	border: 0;
+	width: 16px;
+	height: 16px;
+	float: left;
+	background-repeat: no-repeat;
+	margin: 0 3px 0 3px;
+}
+
+td.ratestars div.gold {
+	background: url("../../icon/star.png");
+}
+ 
+td.ratestars div.grey {
+	background: url("../../icon/star_grey.png");
+} 
+
+header {
+	background: #333;
+}
+
+header div.pmcont {
+	background: url("images/stone.png");
+	width: 50px !important;
+	border: 1px #000 solid;
+	border-radius: 5px;
+	height: 30px;
+	float: right;
+}
+
+header a.pm { background: url("../../icon/icon_pm.png") 0 1px no-repeat; color: #000; margin-top: 6px !important; }
+header a.highlight { background: url("../../icon/icon_pm_highlight.png") 0 2px no-repeat; }
+
+nav { background: #cce080; border-bottom: 1px solid #98c000; }
+nav li, section ul.item li { list-style-type: none; }
+nav input { border-color: #809335 !important; }
+nav input[type="submit"] { background-color: #f4f8e5; }
+
+section { background-color: #fff; box-shadow: 0 2px 5px 2px #ddd; }
+section .hgroup, section header, #answer { background-color: #dee6ee; border: 1px solid #bdcdde; border-radius: 5px; }
+section hgroup, section header, #answer { background-color: #dee6ee; border: 1px solid #bdcdde; border-radius: 5px; }
+section .hgroup { border-radius: 5px 5px 0 0; }
+section hgroup { border-radius: 5px 5px 0 0; }
+section .hgroup a.button, section header a.button { background-color: #eee; border: 1px solid #bdcdde; border-bottom-width: 0; border-radius: 5px 5px 0 0; }
+section hgroup a.button, section header a.button { background-color: #eee; border: 1px solid #bdcdde; border-bottom-width: 0; border-radius: 5px 5px 0 0; }
+section header a.button { background-color: #fff; }
+section ul.item li { background-color: #eee; border: 1px solid #ccc; border-top-width: 0; }
+section ul.item li:last-child { border-radius: 0 0 5px 5px; }
+.error { background: #ffebe6 url("../../icon/icon_error.png") 12px 12px no-repeat; border: 1px solid #ffc2b3; border-radius: 5px; }
+#shoutbox hr { border-bottom: 1px solid #ccc; }
+
+article .author { background-color: #eee; border: 1px solid #ccc; border-radius: 5px; }
+
+.table { border-collapse: collapse; }
+.table th { background: #5b83ad; border: 1px solid #30557c; }
+.table td { border: 1px solid #bbb; }
+.table tr:nth-child(2n+1) { background-color: #eee; }
+.table tr:nth-child(2n+1):hover { background-color: #e0e8ef; }
+.table tr:nth-child(2n):hover { background-color: #f2f5f8; }
+.table td:nth-child(3) a, .pms td:nth-child(1) a { border-bottom: 0 none !important; }
+.table tr.newmsg { background-color: #dee6ee; }
+.table tr.newmsg:hover { background-color: #bdcdde; }
+.pms td:nth-child(1) a { background: url("../../icon/icon_pm_read.png") 10px 50% no-repeat; }
+.pms .newmsg td:nth-child(1) a { background: url("../../icon/icon_pm.png") 10px 50% no-repeat; }
+
+footer { background: url("images/obsidian.png"); border-radius: 0 0 10px 10px; box-shadow: 0 0 5px #999; }

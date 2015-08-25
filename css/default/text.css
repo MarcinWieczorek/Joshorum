@@ -1,0 +1,190 @@
+body {
+	color: #666;
+	font-size: 13px;
+	font-family: "verdana", "helvetica", sans-serif;
+}
+
+a {
+	color: #98c000;
+	text-decoration: none;
+}
+
+span.centertag {
+	text-align: center !important;
+	display: inline;
+}
+
+a:hover {
+	color: #5b83ad;
+
+}
+
+a {
+	transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+
+input {
+	color: #666;
+	font-size: 13px;
+}
+
+input:-moz-placeholder {
+	color: #ccc;
+}
+
+input::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+.select select {
+	font-size: 13px;
+	color: #666;
+}
+
+header {
+	color: #ddd;
+	font-weight: bold;
+}
+
+header h1 {
+	font-size: 26px;
+	letter-spacing: -2px;
+	text-shadow: 0 1px 3px #000;
+}
+
+header h1 span {
+	font-weight: normal;
+}
+
+header a {
+	color: #5b83ad;
+}
+
+header a:hover {
+	color: #98c000;
+	text-shadow: 0 0 2px #98c000;
+}
+
+header a.pm {
+	font-size: 14px;
+}
+
+header a.highlight {
+	color: #f30;
+}
+
+header a.highlight:hover {
+	text-shadow: 0 0 2px #f30;
+}
+
+header h1 {
+	transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+
+header h1:hover {
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+}
+
+nav {
+	color: #809335;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+nav a, nav span, nav input[type="submit"] {
+	color: #55641a;
+}
+
+nav a:hover {
+	color: #456c94;
+}
+
+#clock {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+section header h2, section .hgroup h2, #answer {
+	font-size: 20px;
+	color: white;
+}
+
+section header h2, section hgroup h2, #answer {
+	font-size: 20px;
+	color: #5b83ad;
+}
+
+section ul.item li a {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+a.nick, section .hgroup a.button, section header a.button {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+a.nick, section hgroup a.button, section header a.button {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+section header span {
+	color: #5b83ad;
+	font-weight: normal;
+}
+
+.error {
+	font-size: 15px;
+	color: #f30;
+}
+
+.error a {
+	color: #5b83ad;
+	border-bottom: 1px dashed #ff6f4c;
+}
+
+.error a:hover {
+	border: 0;
+}
+
+#shoutbox {
+	color: #444;
+}
+
+.table th {
+	color: #fff;
+	text-shadow: 0 1px 2px #224161;
+}
+
+.table a {
+	font-weight: bold;
+	color: #777;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+	text-align: center;
+}
+
+.table td:nth-child(1) a:hover {
+	border-bottom: 1px dashed #999;
+}
+
+	footer, footer a {
+	color: #ddd;
+	font-weight: bold;
+}
+
+	footer a {
+	border-bottom: 1px dashed #666;
+}
